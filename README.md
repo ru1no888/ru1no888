@@ -1,89 +1,80 @@
-# Thanakorn Supawanchai (Film) 👋
-### Computer Engineering Student | IoT & Embedded Systems | Full-stack Developer
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi%20there,%20I'm%20Film!%20👋&fontSize=50&fontAlignY=35&desc=Computer%20Engineering%20Student%20|%20IoT%20|%20Full-stack&descAlignY=55&descAlign=50" />
+</div>
 
-I build practical systems at the intersection of **hardware + software** — from embedded IoT devices to scalable web applications and automation workflows.
-
----
-
-## 🚀 About Me
-- 🎓 Computer Engineering student focused on real-world engineering impact
-- 🔧 Interested in **IoT architecture**, **embedded systems**, and **full-stack development**
-- 🧠 Passionate about building efficient, reliable, and intelligent systems
-- 🌱 Currently improving in system design, backend performance, and AI-assisted automation
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=4000&pause=1000&color=38B2AC&center=true&vCenter=true&width=500&lines=Computer+Engineering+Student;IoT+%26+Embedded+Systems+Enthusiast;Full-stack+Developer;Building+Smart+Health+Monitors" alt="Typing SVG" />
+  </a>
+</div>
 
 ---
 
-## 🛠 Core Competencies
-
-### Embedded Systems & IoT
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
-
-### Software Development
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### Frontend Engineering
-![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### Database & Tools
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### 👨‍💻 About Me
+<table>
+  <tr>
+    <td width="60%">
+      - 🎓 <b>Computer Engineering student</b> based in Khon Kaen, Thailand.<br>
+      - ⌚ <b>Currently working on:</b> A Thesis Project building a Smart Watch for health monitoring.<br>
+      - 🔧 <b>Passionate about:</b> IoT architecture, embedded systems (ESP32, Arduino), and bridging the gap between hardware and software.<br>
+      - 🌱 <b>Learning:</b> System design, backend performance, AI-assisted automation, and pushing my personal limits (currently on a mission to hit that 80kg fitness goal! 💪).<br>
+      - 💬 <b>Ask me about:</b> ESP32, React, Next.js, Java, or Object-Oriented Programming (OOP).
+    </td>
+    <td width="40%" align="center">
+      <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="90%" alt="Coding Animation"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📌 Featured Projects
-- ⌚ **Thesis: Smart Health Monitoring System**  
-  Architecting a wearable IoT solution for real-time health data acquisition, transmission, and analysis.
-
-- 🔐 **IoT Security Matrix**  
-  Developing an ESP32-based security infrastructure with multi-sensor synchronization and robust event handling.
-
-- 🌐 **Full-stack Web Applications**  
-  Building modern, high-performance platforms with clean architecture and efficient API design.
-
-- 🤖 **Automation Systems**  
-  Creating AI-based scripts and bots to optimize workflows and reduce repetitive operations.
+### 🛠️ Tech Stack & Tools
+<div align="center">
+  <p><b>Embedded Systems | Software Development | Frontend | Database</b></p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,nodejs,react,nextjs,tailwind,postgres,mysql,git,github,linux,arduino&perline=10" alt="Tech Stack"/>
+  <br><br>
+  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white" />
+</div>
 
 ---
 
-## 📊 GitHub Analytics
-![Film's GitHub stats](https://github-readme-stats.vercel.app/api?username=ru1no888&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ru1no888&layout=compact&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com?user=ru1no888&theme=radical&hide_border=false)
+### 🚀 Featured Projects
+* **⌚ Thesis: Smart Health Monitoring System** <br> 
+    Architecting a wearable IoT solution for real-time health data acquisition, transmission, and analysis.
+* **🔐 IoT Security Matrix** <br>
+    Developing an ESP32-based security infrastructure with multi-sensor synchronization and robust event handling.
+* **🌐 Full-stack Web Applications** <br>
+    Building modern, high-performance platforms with clean architecture and efficient API design.
 
 ---
 
-## 🎯 Now Working On
-- Building smarter IoT workflows with reliable real-time telemetry
-- Improving backend performance and API response consistency
-- Expanding production-ready full-stack deployment skills
-
-## 📚 Learning
-- Advanced system design for distributed IoT services
-- Secure architecture for embedded-to-cloud communication
-- Applied AI automation for engineering workflows
-
----
-
-## 📨 Contact
-- 📍 **Location:** Khon Kaen, Thailand
-- 💬 **Ask me about:** ESP32, IoT Architecture, Next.js
-- 📧 **Email:** [film.thanakorn39@gmail.com](mailto:film.thanakorn39@gmail.com)
-
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ru1no888)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/thanakorn.supawanchai/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/fm_you_know/)
+### 📊 GitHub Analytics
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ru1no888&show_icons=true&theme=transparent&hide_border=true&title_color=38B2AC&icon_color=38B2AC&text_color=777777" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=ru1no888&theme=transparent&hide_border=true&title_color=38B2AC&icon_color=38B2AC&text_color=777777" width="48%" />
+</div>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ru1no888&layout=compact&theme=transparent&hide_border=true&title_color=38B2AC&text_color=777777" width="48%" />
+</div>
 
 ---
 
-> *"Engineering is not just about building things; it's about solving problems with logic and precision."*
+### 📬 Let's Connect!
+<div align="center">
+  <a href="mailto:film.thanakorn39@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/ru1no888"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.facebook.com/thanakorn.supawanchai/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+  <a href="https://www.instagram.com/fm_you_know/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/ru1no888/search/bg_000000-txt_38B2AC/2.svg" alt="Profile Views"/>
+</div>
+
+<div align="center">
+  <br>
+  <i>"Engineering is not just about building things; it's about solving problems with logic and precision."</i>
+</div>
