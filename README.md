@@ -1,112 +1,160 @@
-<div align="center">
+export default function ThanakornIntroPage() {
+  const tech = [
+    'ESP32',
+    'Arduino',
+    'MQTT',
+    'C',
+ ([github.com](https://github.com/ru1no888))ava',
+    'Python',
+    'FastAPI',
+    'Node.js',
+    'Next.js',
+    'React',
+    'Tailwind CSS',
+    'SQL',
+    'Git',
+    'GitHub',
+    'Linux',
+  ];
 
-# ⬇️ Welcome to my profile ⬇️
+  const projects = [
+    {
+      title: 'Smart Health Monitoring System',
+      subtitle: 'Thesis Project',
+      description:
+        'Wearable IoT solution for real-time health data acquisition, transmission, and analysis.',
+    },
+    {
+      title: 'IoT Security Matrix',
+      subtitle: 'Embedded Security',
+      description:
+        'ESP32-based security infrastructure with multi-sensor synchronization and robust event handling.',
+    },
+    {
+      title: 'Full-stack Web Applications',
+      subtitle: 'Web Engineering',
+      description:
+        'Modern, high-performance platforms with clean architecture and efficient API design.',
+    },
+    {
+      title: 'Automation Systems',
+      subtitle: 'AI + Workflow',
+      description:
+        'AI-based scripts and bots to optimize workflows and reduce repetitive operations.',
+    },
+  ];
 
-## ✨ Hi there, I'm Thanakorn (Film) 👋
-### Computer Engineering Student | IoT & Embedded Systems | Full-stack Developer
+  return (
+    <div className="min-h-screen bg-neutral-950 text-white overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.22),transparent_30%),radial-gradient(circle_at_left,rgba(168,85,247,0.18),transparent_25%),linear-gradient(to_bottom,rgba(255,255,255,0.02),rgba(255,255,255,0))]" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=1000&color=7DD3FC&center=true&vCenter=true&width=780&lines=Building+practical+systems+that+connect+hardware+%2B+software;IoT+Architecture+%7C+Embedded+Systems+%7C+Web+Development;Code+Build+Improve+Repeat" alt="Typing SVG" />
+      <main className="relative mx-auto max-w-6xl px-6 py-10 md:px-10 md:py-16">
+        <section className="grid items-center gap-10 lg:grid-cols-[1.3fr_0.9fr]">
+          <div>
+            <p className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-1 text-sm tracking-wide text-white/70 backdrop-blur">
+              Portfolio / Introduction
+            </p>
+            <h1 className="max-w-4xl text-4xl font-black leading-tight md:text-6xl">
+              Thanakorn <span className="text-cyan-400">Supawanchai</span>
+            </h1>
+            <p className="mt-3 text-lg text-white/70 md:text-2xl">
+              Film — Computer Engineering Student
+            </p>
+            <p className="mt-6 max-w-2xl text-base leading-8 text-white/75 md:text-lg">
+              I build practical technology from device to cloud — combining
+              IoT architecture, embedded systems, backend engineering, and
+              modern web development into reliable real-world solutions.
+            </p>
 
-<img src="https://komarev.com/ghpvc/?username=ru1no888&color=7dd3fc&style=for-the-badge" alt="profile views" />
+            <div className="mt-8 flex flex-wrap gap-3">
+              {['IoT & Embedded', 'Full-stack Developer', 'System Design', 'AI Automation'].map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
 
-</div>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="https://github.com/ru1no888"
+                className="rounded-2xl bg-white px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.02]"
+              >
+                View GitHub
+              </a>
+              <a
+                href="mailto:film.thanakorn39@gmail.com"
+                className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
 
----
+          <div className="relative">
+            <div className="rounded-[32px] border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur-xl">
+              <div className="rounded-[28px] border border-white/10 bg-black/40 p-6">
+                <p className="text-sm uppercase tracking-[0.25em] text-cyan-300/80">About Me</p>
+                <div className="mt-4 space-y-4 text-white/75 leading-7">
+                  <p>Focused on real-world engineering impact.</p>
+                  <p>Passionate about IoT, embedded systems, and full-stack development.</p>
+                  <p>Currently improving system design, backend performance, and AI automation.</p>
+                  <p className="text-white">Goal: Build practical technology that solves real problems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-## 💬 About Me
+        <section className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {projects.map((project) => (
+            <div
+              key={project.title}
+              className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 shadow-lg backdrop-blur-sm transition hover:-translate-y-1 hover:bg-white/[0.06]"
+            >
+              <p className="text-xs uppercase tracking-[0.25em] text-cyan-300/70">{project.subtitle}</p>
+              <h3 className="mt-3 text-xl font-bold">{project.title}</h3>
+              <p className="mt-3 leading-7 text-white/70">{project.description}</p>
+            </div>
+          ))}
+        </section>
 
-|  |  |
-|---|---|
-| 👨‍🎓 | Computer Engineering student focused on real-world engineering impact |
-| 🔧 | Passionate about **IoT architecture**, **embedded systems**, and **full-stack development** |
-| 🧠 | I enjoy designing efficient and reliable systems from device to cloud |
-| 🌱 | Currently improving in **system design**, **backend performance**, and **AI automation** |
-| 🎯 | Goal: Build practical technology that solves real problems |
+        <section className="mt-16 grid gap-8 lg:grid-cols-[1fr_1.1fr]">
+          <div className="rounded-[28px] border border-white/10 bg-white/[0.04] p-7 backdrop-blur-sm">
+            <p className="text-sm uppercase tracking-[0.25em] text-purple-300/80">Current Focus</p>
+            <ul className="mt-5 space-y-4 text-white/75 leading-7">
+              <li>Smarter IoT workflows with reliable real-time telemetry</li>
+              <li>Backend performance and API response consistency</li>
+              <li>Production-ready full-stack deployment skills</li>
+              <li>Secure architecture from embedded devices to cloud services</li>
+            </ul>
+          </div>
 
----
+          <div className="rounded-[28px] border border-white/10 bg-white/[0.04] p-7 backdrop-blur-sm">
+            <p className="text-sm uppercase tracking-[0.25em] text-pink-300/80">Tech Stack</p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {tech.map((item) => (
+                <span
+                  key={item}
+                  className="rounded-2xl border border-white/10 bg-black/30 px-4 py-2 text-sm text-white/80"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
 
-## 🎬 Coding Vibe
-
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q4dWZmM2Q4OHNidHByYzB4M2N2dTQ2d3M4a3Nyd29jOHNobXJ5NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="420" alt="coding gif" />
-</div>
-
----
-
-## 🚀 Featured Projects
-
-### ⌚ Smart Health Monitoring System (Thesis)
-Wearable IoT solution for real-time health data acquisition, transmission, and analysis.
-
-### 🔐 IoT Security Matrix
-ESP32-based security infrastructure with multi-sensor synchronization and robust event handling.
-
-### 🌐 Full-stack Web Applications
-Modern, high-performance platforms with clean architecture and efficient API design.
-
-### 🤖 Automation Systems
-AI-based scripts and bots to optimize workflows and reduce repetitive operations.
-
----
-
-## 🎀 Tech Stack
-
-| Category | Tools |
-|---|---|
-| 🔌 Embedded / IoT | ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white) |
-| 💻 Languages | ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| 🌐 Frameworks | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| 🗄️ Database / Tools | ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ru1no888&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ru1no888&layout=compact&theme=radical&hide_border=true" alt="Top languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=ru1no888&theme=radical&hide_border=true" alt="GitHub streak" />
-</div>
-
----
-
-## 🌸 Currently Working On
-
-- Smarter IoT workflows with reliable real-time telemetry
-- Backend performance and API response consistency
-- Production-ready full-stack deployment skills
-
-## 📚 Learning
-
-- Advanced system design for distributed IoT services
-- Secure architecture for embedded-to-cloud communication
-- Applied AI automation for engineering workflows
-
----
-
-## 📫 Contact
-
-<img src="https://img.shields.io/badge/Location-Khon%20Kaen%2C%20Thailand-7dd3fc?style=for-the-badge" alt="location" />
-<img src="https://img.shields.io/badge/Ask%20me-ESP32%20%7C%20IoT%20Architecture%20%7C%20Next.js-38bdf8?style=for-the-badge" alt="ask me" />
-
-- 📧 **Email:** [film.thanakorn39@gmail.com](mailto:film.thanakorn39@gmail.com)
-
-<p align="left">
-  <a href="https://github.com/ru1no888">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</p>
-
----
-
-### "Code, Build, Improve, Repeat."
-### ૮ ˶ᵔ ᵕ ᵔ˶ ა
+        <section className="mt-16 rounded-[32px] border border-white/10 bg-gradient-to-r from-cyan-500/10 via-transparent to-purple-500/10 p-8 backdrop-blur-sm">
+          <p className="text-sm uppercase tracking-[0.3em] text-white/50">Signature</p>
+          <h2 className="mt-3 text-2xl font-bold md:text-3xl">Code, Build, Improve, Repeat.</h2>
+          <p className="mt-4 max-w-2xl text-white/70 leading-7">
+            A sleek one-page introduction inspired by your GitHub profile, designed to present you as a builder focused on practical engineering, modern systems, and impactful software.
+          </p>
+        </section>
+      </main>
+    </div>
+  );
+}
